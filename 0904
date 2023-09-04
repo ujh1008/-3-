@@ -1,0 +1,70 @@
+number = input('숫자를 입력하시오.')
+
+total=0
+
+for a in number:
+    a= int(a)
+    if a%2==1:
+        total += 1
+        
+print(total)
+
+sentence = input()
+
+i = len(sentence) - 1
+
+while i>=0:
+    if sentence[i] == ' ':
+            print('-',end='')
+    else :
+        print('%s' % sentence[i],end='')
+        
+    i-=1
+
+for i in range(1,6):
+    for j in range(10):
+        print('* ',end='')
+    print()
+
+i = 0
+j = 0
+while i < 5:
+    i+=1
+while j < 10 :
+        print('* ', end='')
+        j+=1
+print()
+while i < 10:
+    i+=1
+while j < 20 :
+        print('* ', end='')
+        j+=1
+print()
+while i < 15:
+    i+=1
+while j < 30 :
+        print('* ', end='')
+        j+=1
+print()
+while i < 20:
+    i+=1
+while j < 40 :
+        print('* ', end='')
+        j+=1
+print()
+while i < 25:
+    i+=1
+while j < 50 :
+        print('* ', end='')
+        j+=1
+print()
+
+i = 0
+j = 0
+while i < 5:
+    j=0
+    while j < 10 :
+        print('* ', end='')
+        j+=1
+    print()
+    i+=1
